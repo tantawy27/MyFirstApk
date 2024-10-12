@@ -30,4 +30,14 @@
         android:textColor="#000000"
         android:background="#EF5350"
         android:text="This" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EF5350"
+        android:text="This"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
 </LinearLayout>
