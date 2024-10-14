@@ -2,7 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     android:orientation="vertical">
+
 
     <ImageView
 
@@ -16,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@color/bk"
+        android:background="@drawable/my_bk"
         android:lines="1"
         android:padding="16dp"
         android:text="@string/enter_your_info"
@@ -29,18 +32,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@color/bk"
+        android:background="@drawable/my_bk"
         android:lines="1"
         android:padding="16dp"
-        android:text="@string/enter_your_age"
+        android:drawablePadding="10dp"
         android:textColor="@color/txtColor"
         android:drawableStart="@drawable/baseline_wheelchair_pickup_24"
+        android:hint="@string/enter_your_age"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/button25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/my_bk"
+        app:backgroundTint="@null"
         android:text="SUBMIT" />
 
 
